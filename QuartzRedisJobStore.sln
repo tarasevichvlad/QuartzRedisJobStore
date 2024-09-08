@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzRedisJobStore.JobStor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzRedisJobStore.UnitTest", "QuartzRedisJobStore.UnitTest\QuartzRedisJobStore.UnitTest.csproj", "{A8C91E45-8609-4BA8-B889-63FC8A1313F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.JobStore.Redis", "Quartz.JobStore.Redis\Quartz.JobStore.Redis.csproj", "{9C57642E-5945-4E4D-82A3-F357BC887592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{5CDB2EE4-8FA8-4B2E-94C5-0211F10B5835}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A8C91E45-8609-4BA8-B889-63FC8A1313F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C91E45-8609-4BA8-B889-63FC8A1313F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C91E45-8609-4BA8-B889-63FC8A1313F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C57642E-5945-4E4D-82A3-F357BC887592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C57642E-5945-4E4D-82A3-F357BC887592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C57642E-5945-4E4D-82A3-F357BC887592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C57642E-5945-4E4D-82A3-F357BC887592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDB2EE4-8FA8-4B2E-94C5-0211F10B5835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDB2EE4-8FA8-4B2E-94C5-0211F10B5835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDB2EE4-8FA8-4B2E-94C5-0211F10B5835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDB2EE4-8FA8-4B2E-94C5-0211F10B5835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
